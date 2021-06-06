@@ -1,13 +1,20 @@
 import styled from 'styled-components';
 import { PrimaryCap } from '../../../common/styled/typography';
 import { color } from '../../../common/styled/palette';
+import { device } from '../../../globalStyles';
 
 export const StyledDashboard = styled.div`
     display: flex;
     flex-direction: column;
     max-width: 1440px;
-    padding: 60px;
+    padding: 0;
     margin: 0 auto;
+    @media only screen and ${device.tablet} {
+        padding: 20px;
+    }
+    @media only screen and ${device.desktop} {
+        padding: 60px;
+    }
 `
 export const StyledHead = styled.div`
     display: flex;
