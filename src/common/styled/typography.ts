@@ -5,7 +5,6 @@ export const PrimaryCap = styled.h3`
     font-family: 'brandon-grotesque', sans-serif;
     font-size: 20px;
     line-height: 30px;
-    text-transform: uppercase;
     
     @media only screen and ${device.tablet} {
         font-size: 28px;
