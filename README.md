@@ -11,7 +11,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   - [yarn build](#yarn-build)
   - [yarn eject](#yarn-eject)
   - [Supported Browsers](#supported-browsers)
-- [amCharts 4](#am-charts-4)
+- [amCharts 4](#amCharts-4)
+- [Styled Components](#styled-components)
 
 ## Description
 
@@ -73,3 +74,32 @@ The bar chart for demonstrating population of United States is built on amCharts
 It provides a convenient way to fulfil animation within the chart's interaction.
 
 More infomation about  [am Charts](https://www.amcharts.com/docs/v4/)
+
+## Styled Components
+
+The layout of the app is completed with styled-components library.
+
+For example:
+
+```ts
+import { createGlobalStyle } from 'styled-components';
+
+export const GlobalStyle = createGlobalStyle`
+    *,
+    *::before,
+    *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        font-family:"brandon-grotesque", sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        background-color: ${color.background};
+    }
+`
+
+```
+
+More information for [Styled Components](https://styled-components.com/)
