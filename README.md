@@ -11,6 +11,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   - [npm run build](#npm-run-build)
   - [npm run eject](#npm-run-eject)
   - [Supported Browsers](#supported-browsers)
+- [amCharts 4](#am-charts-4)
 
 ## Description
 
@@ -64,3 +65,11 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 By default, the generated project uses the latest version of React.
 
 You can refer [to the React documentation](https://reactjs.org/docs/react-dom.html#browser-support) for more information about supported browsers.
+
+## amCharts 4
+
+The bar chart for demonstrating population of United States is built on amCharts 4 library.
+
+It provides a convenient way to fulfil animation within the chart's interaction.
+
+More infomation about  [am Charts](https://www.amcharts.com/docs/v4/)
