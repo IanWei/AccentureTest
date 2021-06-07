@@ -2,6 +2,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Description
+
+This is project demonstrated United States population via barchart with mock data (json data).
+
+The library using for demonstrating barchart is AmCharts. However, it has some limitation in jest while running "yarn test". 
+
+There is dropdown button located at the top-right corner, it executes a simple filter function for year.
+
+There is a dummy dropdown show after 'App experience' called General. It potentially can fulfil a selection function.   
+
 ## Available Scripts
 
 In the project directory, you can run:
