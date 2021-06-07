@@ -6,10 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 - [Description](#description)
 - [Available Scripts](#available-scripts)
-  - [npm start](#npm-start)
-  - [npm test](#npm-test)
-  - [npm run build](#npm-run-build)
-  - [npm run eject](#npm-run-eject)
+  - [yarn start](#yarn-start)
+  - [yarn test](#yarn-test)
+  - [yarn build](#yarn-build)
+  - [yarn eject](#yarn-eject)
   - [Supported Browsers](#supported-browsers)
 - [amCharts 4](#am-charts-4)
 
