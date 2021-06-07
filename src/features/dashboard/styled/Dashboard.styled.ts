@@ -9,6 +9,7 @@ export const StyledDashboard = styled.div`
     max-width: 1440px;
     padding: 0;
     margin: 0 auto;
+    
     @media only screen and ${device.tablet} {
         padding: 20px;
     }
@@ -19,9 +20,18 @@ export const StyledDashboard = styled.div`
 export const StyledHead = styled.div`
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     width: 100%;    
-    margin-bottom: 60px;
+    padding: 20px 20px 0;
+    margin-bottom: 20px;
+    
+    @media only screen and ${device.tablet} {
+        padding: 40px;
+    }
+    @media only screen and ${device.desktop} {
+        padding: 60px;
+    }
 `
 
 export const StyledLeft = styled.div`
@@ -39,18 +49,5 @@ export const StyledAppOption = styled(PrimaryCap)`
     display: flex;
     align-items: center;
     color: ${color.mineShaft};
-`
-
-export const StyledChevronWrapper = styled.div<{open: boolean}>`
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    transition: all .2s ease;
-    transform: ${p => p.open ? 'translateY(-50%) rotate(90deg)' : 'translateY(-50%) rotate(-90deg)'};
-    
-    svg {
-        path {
-            stroke: ${color.violet};        
-        }
-    }
+    margin-right: 10px;
 `

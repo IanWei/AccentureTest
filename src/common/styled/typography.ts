@@ -33,6 +33,22 @@ export const Secondary = styled.h5`
     font-size: 16px;
     line-height: 24px;
 `
+export const TertiaryOption = styled.li`
+    font-family: 'bitter', sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    
+    @media only screen and ${device.tablet} {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    
+    @media only screen and ${device.desktop} {
+        font-size: 16px;
+        line-height: 24px;
+    }
+`
 
 export const Tertiary = styled.p`
     font-family: 'bitter', sans-serif;

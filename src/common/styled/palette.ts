@@ -7,5 +7,5 @@ export const color = {
     violet: '#613ADE',
     grass: '#32C263',
     turbo: '#209DFB',
-    scarlet: '#FF3200'
+    scarlet: '#F86646'
 }

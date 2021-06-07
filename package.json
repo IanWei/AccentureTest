@@ -31,11 +31,6 @@
       "react-app/jest"
     ]
   },
-  "jest": {
-    "transformIgnorePatterns": [
-      "node_modules/(?!@ngrx|(?!deck.gl)|ng-dynamic)"
-    ]
-  },
   "browserslist": {
     "production": [
       ">0.2%",
