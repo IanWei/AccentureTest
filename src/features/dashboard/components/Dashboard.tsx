@@ -7,7 +7,7 @@ import { DropDown } from './DropDown';
 import { YearOptions, YearOptionType } from '../constant/options';
 
 export const Dashboard: FC<DashboardTypes> = ({ data: populationData }) => {
-    const [data, setData] = useState<PopulationDataType>(populationData);
+    const [data, setData] = useState<PopulationDataType>(populationData.slice(0, 7));
     const [selectedOption, setSelectedOption] = useState(YearOptionType.Last7Years);
 
     // Note: selectYearOption function is simply demo the bar chart data can be altered by option
