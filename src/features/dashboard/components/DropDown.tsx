@@ -9,7 +9,7 @@ import {
 } from '../styled/DropDown.styled';
 import { ChevronRightIcon } from '../../../common/assets/ChevronRightIcon';
 
-export const DropDown: FC<DropDownTypes> = ({ selectedOption, options, selectOption}) => {
+export const DropDown: FC<DropDownTypes> = ({ selectedOption, options, selectOption }) => {
     const [open, setOpen] = useState(false);
     const [option, setOption] = useState(selectedOption);
     const handleOnClick = () => {
@@ -22,13 +22,13 @@ export const DropDown: FC<DropDownTypes> = ({ selectedOption, options, selectOpt
     }
     return (
         <StyledDropDownWrapper>
-            <StyledDropDown onClick={handleOnClick}>
+            <StyledDropDown onClick={handleOnClick} title='dummyDropDown'>
                 {option}
                 <StyledChevronWrapper open={open}>
                     <ChevronRightIcon />
                 </StyledChevronWrapper>
             </StyledDropDown>
-            <StyledOptions open={open}>
+            <StyledOptions open={open} title='dummyDropDownOption'>
                 {options.map((option, index) => <StyledOption key={index} onClick={() => handleSelect(option)}>{option}</StyledOption>)}
             </StyledOptions>
         </StyledDropDownWrapper>

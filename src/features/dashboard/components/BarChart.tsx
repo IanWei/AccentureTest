@@ -107,6 +107,6 @@ export const BarChart: FC<BarChartTypes> = ({ data }) => {
         }
     }, [data, mostDigit, maxPopulationIndex, minPopulationIndex])
     return (
-        <StyledChart id='bar-chart' title='bar-chart'/>
+        <StyledChart id='bar-chart' title='dummyBarChart'/>
     )
 }

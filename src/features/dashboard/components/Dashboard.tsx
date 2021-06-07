@@ -31,14 +31,14 @@ export const Dashboard: FC<DashboardTypes> = ({ data: populationData }) => {
         }
 
         if (selectedOption !==  YearOptionType.From2013To2018 && option === YearOptionType.From2013To2018) {
-            const updatedData = populationData.slice(1, 7);
+            const updatedData = populationData.slice(2, 8);
             setSelectedOption(YearOptionType.From2013To2018)
             setData(updatedData);
         }
     }
 
     return (
-        <StyledDashboard>
+        <StyledDashboard title='dummyDashboard'>
             <StyledHead>
                 <StyledLeft>
                     <StyledAppOption>

@@ -10,7 +10,7 @@ test('mostDigits', () => {
 });
 
 test('getPopulation', () => {
-    expect(getPopulation(populationData.data)).toEqual([327167439, 325719178, 323127515, 321418821, 318857056, 316128839]);
+    expect(getPopulation(populationData.data)).toEqual([245182411, 300064587, 327167439, 325719178, 323127515, 321418821, 318857056, 316128839]);
 });
 
 test('getText', () => {
