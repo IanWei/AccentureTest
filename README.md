@@ -11,7 +11,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   - [yarn build](#yarn-build)
   - [yarn eject](#yarn-eject)
   - [Supported Browsers](#supported-browsers)
-- [amCharts 4](#amCharts-4)
+- [amCharts 4](#amcharts-4)
 - [Styled Components](#styled-components)
 
 ## Description
@@ -81,6 +81,8 @@ The layout of the app is completed with styled-components library.
 
 For example:
 
+### `globalStyles.ts`
+
 ```ts
 import { createGlobalStyle } from 'styled-components';
 
@@ -98,6 +100,7 @@ export const GlobalStyle = createGlobalStyle`
         -moz-osx-font-smoothing: grayscale;
         background-color: ${color.background};
     }
+    ...
 `
 
 ```
